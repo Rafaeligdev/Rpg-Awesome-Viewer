@@ -59,6 +59,7 @@ span:hover::after {
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
+  z-index: 10;
 }
 
 #copy-message.show {
